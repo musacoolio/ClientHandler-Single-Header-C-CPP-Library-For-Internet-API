@@ -26,7 +26,7 @@ This header handles:
 
 ### But I work only on Linux/MacOS/Windows! I can't switch around for a TCP client header!
 
-This header is cross-platform, as it uses WinSock2 (for Windows users) or POSIX (for MacOS/Linux users).
+This header is cross-platform, as it uses WinSock2 (for Windows users) and POSIX (for MacOS/Linux users).
 
 ### I want a header that could change for my purposes stupidly easy!
 
