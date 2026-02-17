@@ -13,6 +13,7 @@ Made in 2 days because networking APIs like Boost.asio are too big and hard to l
 ### So... what features does this header file have?
 
 This header handles:
+
   -Socket Creation
   
   -Connection with failsafes and reconnection built in
