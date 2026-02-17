@@ -14,9 +14,13 @@ Made in 2 days because networking APIs like Boost.asio are too big and hard to l
 
 This header handles:
   -Socket Creation
+  
   -Connection with failsafes and reconnection built in
+  
   -Sending bytes to a TCP server
+  
   -Recieving bytes from a TCP server
+  
   -The ability to write recieved messages onto a std::string (or char* [])
 
 ### But I work only on Linux/MacOS/Windows! I can't switch around for a TCP client header!
