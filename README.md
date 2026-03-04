@@ -28,7 +28,7 @@ Made in 2 days because networking APIs like Boost.asio are too big and hard to l
 int main() {
    PacketHandle test;
    test.port = 4444;
-   strcpy_s(test.IP, sizeof(test.IP), "127.0.0.1"); // You have to use strcpy_s to write to the IP member of PacketHandle.
+   strncpy(test.IP, sizeof(test.IP), "127.0.0.1"); // You have to use strncpy to write to the IP member of PacketHandle.
    test.sendLine.push_back('H');
    test.sendLine.push_back('I');
    test.sendLine.push_back('!');
